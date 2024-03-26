@@ -1,172 +1,61 @@
-body{
-    margin: 0;
-}
-.header{
-    background-image: url(knew2much_banner.png);
-    background-position: top center;
-    background-repeat: no-repeat;
-    text-align: center;
-    color: red;
-    font-weight: bolder;
-    padding: 245px 0;
-}
-.header p {
-    margin: 45px 0;
+body {
+  margin: 0;
+  background-color: black;
+  color: red;
 }
 
-#adout-Knew2Much{
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 40px 0;
-    text-align: justify;
-}
-#adout-company img {
-    width: 400px;
-    float: right;
-    margin: 30px;
-    margin-top: 0;
+.header {
+  background-image: url(knew2much_banner.png);
+  background-position: top center;
+  background-repeat: no-repeat;
+  text-align: center;
+  padding: 245px 0;
 }
 
-.header a{
-    text-decoration: none;
-    color: black;
-    background-color: white;
-    padding: 12px 24px;
-    border-radius:10px;
+.header h1 {
+  color: red;
+  font-weight: bolder;
 }
-#adout-Knew2Much h2{
-    text-align: center;
+
+#about-Knew2Much,
+.band-history {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 0;
+  text-align: justify;
 }
-.header a:hover{
-    background-color: #b1b1b2;
+
+#about-Knew2Much h2,
+.band-history h2 {
+  text-align: center;
 }
-.Members{
-    text-align: center;   
-}
-.member{
-    width:20%;
-    display: inline-block;
-    margin: 20px 10px ;
-    border: 2px solid grey;
-    text-align: left;
-    padding: 20px;
-    min-width: 340px;
-    vertical-align: top;
-}
-.member img{
-    width: 100%;
-}
-.member h3
-{
-    font-weight: 400;
-    font-size: 24px;
-}
-.member .position{
-    opacity: 0.6;
-}
-.member a{
-    display: inline-block;
-    text-align: center;
-    text-decoration: none;
-    background-color: #055b73;
-    border-radius: 10px;
-    width: 100%;
-    color:white;
-    padding: 14px 0;
-}
-.demo-section {
-    background-color: black;
-    color: white;
-    padding: 40px 20px;
-    margin-top: 40px;
-  }
-  
-  .demo-title {
-    background-color: black;
-    text-align: center;
-    padding: 10px 0;
-  }
-  
-  .demo-title h2 {
-    color: white;
-    margin: 0;
-  }
-  
-  .demo-embed {
-    margin-top: 20px;
-  }
+
 .footer {
-    width: 100%;
-    background-color: black;
-    color: white;
-    padding: 20px 0;
-  }
-  
-  .footer-columns {
-    display: flex;
-    justify-content: space-around;
-  }
-  
-  .footer-column {
-    flex: 1;
-  }
-  
-  .footer-column h4 {
-    margin-bottom: 10px;
-  }
-  
-  .footer-column ul {
-    list-style: none;
-    padding: 0;
-  }
-  
-  .footer-column ul li {
-    margin-bottom: 5px;
-  }
-  
-  .footer-column ul li a {
-    color: white;
-    text-decoration: none;
-  }
-  
-  .footer-column ul li a:hover {
-    text-decoration: underline;
-  }
-  
-
-@media(max-width: 575px){
-    .header{
-        margin-top: 0;
-        background-size: cover;
-        background-position: center center;
-        min-height: auto;
-        padding: 100px 10px;
-    }
-    #adout-Knew2Much{
-        width: 86%;
-        margin:10px 5px;
-        float: none;
-    }
-    .member{
-        min-width: 80%;
-    }
+  width: 100%;
+  background-color: black;
+  color: red;
+  padding: 20px 0;
+  margin-top: 20px; /* Added margin-top */
 }
 
-/*to remove later */
+.footer-columns {
+  display: flex;
+  justify-content: space-around;
+  border-top: 5px solid red; /* Added border-top */
+  padding-top: 20px; /* Added padding-top */
+}
+
+
+
+
 
 .announcement-banner {
-    background-color: #ffcc00;
-    color: #333;
-    text-align: center;
-    padding: 10px 0;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 1000; /* Make sure the banner stays on top */
+  background-color: #ff0000;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
 }
-
-.announcement-banner p {
-    margin: 0;
-    font-weight: bold;
-}
-
