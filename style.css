@@ -5,13 +5,16 @@ body {
 }
 
 .header {
-  background-image: url(knew2much_banner.png);
-  background-position: top center;
-  background-repeat: no-repeat;
-  text-align: center;
-  padding: 200px 0;
-  background-size: cover;
+    background-image: url(knew2much_banner.png);
+    background-position: top center;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: red;
+    font-weight: bolder;
+    padding: 245px 0;
+    background-size: contain;
 }
+
 
 .header h1 {
   color: red;
