@@ -10,6 +10,7 @@ body {
   background-repeat: no-repeat;
   text-align: center;
   padding: 245px 0;
+  background-size: cover;
 }
 
 .header h1 {
